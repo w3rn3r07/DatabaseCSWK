@@ -18,7 +18,7 @@ CREATE TABLE branch (
     branch_id SERIAL PRIMARY KEY NOT NULL,
     branch_name VARCHAR(30) NOT NULL,
     branch_city VARCHAR(90) NOT NULL,
-    branch_postcode VARCHAR(15) NOT NULL
+    branch_postcode CHAR(8) NOT NULL
 );
 
 CREATE TABLE staff(
