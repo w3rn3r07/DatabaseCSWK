@@ -118,7 +118,7 @@ CREATE TABLE traveller (
     passport_no VARCHAR(15) NOT NULL,
     traveller_city VARCHAR(90) NOT NULL,
     street_name VARCHAR(50) NOT NULL,
-    cust_postcode CHAR(8) NOT NULL,
+    traveller_postcode CHAR(8) NOT NULL,
     booking_id INT NOT NULL,
     FOREIGN KEY (booking_id) REFERENCES booking(booking_id)
 );
