@@ -113,7 +113,7 @@ CREATE TABLE traveller (
     traveller_id SERIAL PRIMARY KEY NOT NULL,
     traveller_fname VARCHAR(30) NOT NULL,
     traveller_lname VARCHAR(30) NOT NULL,
-    traveller_sex CHAR(1) NOT NULL,
+    sex CHAR(1) NOT NULL,
     date_of_birth DATE NOT NULL,
     passport_no VARCHAR(15) NOT NULL,
     traveller_city VARCHAR(90) NOT NULL,
@@ -123,23 +123,9 @@ CREATE TABLE traveller (
     FOREIGN KEY (booking_id) REFERENCES booking(booking_id)
 );
 
-
-
-/* 
----------------------------------------------------------------------------
----------------------NOT DONE YET KEEP SCROLLING---------------------------
----------------------------------------------------------------------------
-
 CREATE TABLE payment (
     payment_id SERIAL PRIMARY KEY NOT NULL,
 );
-
----------------------------------------------------------------------------
----------------------NOT DONE YET KEEP SCROLLING---------------------------
----------------------------------------------------------------------------
-*/
-
-
 
 CREATE TABLE package (
     package_id SERIAL PRIMARY KEY NOT NULL,
@@ -168,7 +154,7 @@ CREATE TABLE car_rent (
     car_country VARCHAR(50) NOT NULL,
     car_city VARCHAR(90) NOT NULL,
     street_name VARCHAR(50) NOT NULL,
-    car_postcode CHAR(8) NOT NULL
+    car_postcode VARCHAR(15) NOT NULL
 );
 
 CREATE TABLE car_book (
@@ -211,3 +197,15 @@ CREATE TABLE flight_class (
 );
 
 --Insertion
+
+
+INSERT INTO customer (cust_fname, cust_lname, email, no_of_travellers, cust_city, street_name, cust_postcode) values ('Christabella', 'Castillo', 'ccastillo0@smugmug.com', '3', 'Molesey', 'Island Farm Road', 'KT8 2NJ');
+INSERT INTO customer (cust_fname, cust_lname, email, no_of_travellers, cust_city, street_name, cust_postcode) values ('Jacqui', 'Lyttle', 'jlyttle1@yahoo.co.jp', '0', 'Aylesbury', 'Castle Street', 'HP20 1TA');
+INSERT INTO customer (cust_fname, cust_lname, email, no_of_travellers, cust_city, street_name, cust_postcode) values ('Dirk', 'Bebbell', 'dbebbell2@elegantthemes.com', '1', 'Neath', 'Brookfield ', 'SA10 7EG');
+INSERT INTO customer (cust_fname, cust_lname, email, no_of_travellers, cust_city, street_name, cust_postcode) values ('Camel', 'Loeber', 'cloeber3@eventbrite.com', '1', 'London', 'Chichester Road', 'NW6 5QP');
+INSERT INTO customer (cust_fname, cust_lname, email, no_of_travellers, cust_city, street_name, cust_postcode) values ('Worth', 'Jessup', 'wjessup4@csmonitor.com', '0', 'Plymouth', 'Colebrook Lane', 'PL7 4BN');
+INSERT INTO customer (cust_fname, cust_lname, email, no_of_travellers, cust_city, street_name, cust_postcode) values ('Randi', 'Soulsby', 'rsoulsby5@chronoengine.com', '2', 'Horsforth', 'Wood Lane', 'LS18 4HH');
+INSERT INTO customer (cust_fname, cust_lname, email, no_of_travellers, cust_city, street_name, cust_postcode) values ('Cammy', 'Valente', 'cvalente6@amazonaws.com', '2', 'Manchester', 'Orville Drive', 'M19 2JW');
+INSERT INTO customer (cust_fname, cust_lname, email, no_of_travellers, cust_city, street_name, cust_postcode) values ('Florencia', 'Penlington', 'fpenlington7@hc360.com', '0', 'Leeds', 'Victoria Terrace', 'LS3 1BX');
+INSERT INTO customer (cust_fname, cust_lname, email, no_of_travellers, cust_city, street_name, cust_postcode) values ('Norri', 'Veltmann', 'nveltmann8@census.gov', '3', 'Bradford', 'Pollard Lane', 'BD2 4RW');
+INSERT INTO customer (cust_fname, cust_lname, email, no_of_travellers, cust_city, street_name, cust_postcode) values ('Chrissie', 'Dedenham', 'cdedenham9@exblog.jp', '0', 'Albury', 'Farm Cottages', 'SG11 2JE');
