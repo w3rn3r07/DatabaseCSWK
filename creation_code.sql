@@ -8,8 +8,8 @@ CREATE TABLE customer (
     sex CHAR(1) NOT NULL,
     date_of_birth DATE,
     passport_no VARCHAR(15),
-    phone_no1 CHAR(11) NOT NULL,
-    phone_no2 CHAR(11), 
+    phone_no1 VARCHAR(15) NOT NULL,
+    phone_no2 VARCHAR(15), 
     email VARCHAR(255) NOT NULL,
     no_of_travellers SMALLINT NOT NULL,
     cust_city VARCHAR(90) NOT NULL,
@@ -29,7 +29,7 @@ CREATE TABLE staff(
     staff_id SERIAL PRIMARY KEY NOT NULL,
     staff_fname VARCHAR(30) NOT NULL,
     staff_lname VARCHAR(30) NOT NULL,
-    phone_no CHAR(10) NOT NULL,
+    phone_no VARCHAR(15) NOT NULL,
     email VARCHAR(255) NOT NULL,
     staff_city VARCHAR(90) NOT NULL,
     street_name VARCHAR(50) NOT NULL,
@@ -63,7 +63,7 @@ CREATE TABLE accomodation (
     street_name VARCHAR(50) NOT NULL,
     accom_postcode CHAR(8) NOT NULL,
     phone_country_code VARCHAR(3) NOT NULL,
-    accom_phone_no CHAR(11) NOT NULL,
+    accom_phone_no VARCHAR(15) NOT NULL,
     accom_description TEXT
 );
 
