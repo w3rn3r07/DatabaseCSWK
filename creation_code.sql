@@ -133,7 +133,7 @@ CREATE TABLE payment (
 
 CREATE TABLE package (
     package_id SERIAL PRIMARY KEY NOT NULL,
-    package_name VARCHAR(10) NOT NULL,
+    package_name VARCHAR(20) NOT NULL,
     package_price DECIMAL NOT NULL,
     package_description TEXT NOT NULL
 );
