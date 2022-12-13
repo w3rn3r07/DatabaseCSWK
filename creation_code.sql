@@ -102,6 +102,7 @@ CREATE TABLE booking (
     booking_id SERIAL PRIMARY KEY NOT NULL,
     holiday_duration SMALLINT NOT NULL,
     date_of_booking DATE NOT NULL,
+    booking_price DECIMAL NOT NULL,
     staff_id INT NOT NULL,
     cust_id INT NOT NULL,
     flight_id INT NOT NULL,
