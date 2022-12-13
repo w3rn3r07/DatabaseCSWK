@@ -150,7 +150,7 @@ CREATE TABLE car_rent (
     car_phone_no VARCHAR(15) NOT NULL,
     car_brand VARCHAR(40) NOT NULL,
     car_model VARCHAR(100) NOT NULL,
-    car_regist CHAR(7) NOT NULL,
+    car_regist VARCHAR(10) NOT NULL,
     no_of_seats SMALLINT NOT NULL,
     no_of_bags SMALLINT NOT NULL,
     transmission_type VARCHAR(25) NOT NULL,
