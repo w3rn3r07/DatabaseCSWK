@@ -1,6 +1,6 @@
 hello my name is gustav
 --Insertion
-INSERT INTO customer (cust_fname, cust_lname, email, no_of_travellers, cust_city, street_name, cust_postcode) values ('Christabella', 'Castillo', 'ccastillo0@smugmug.com', 3, 'Molesey', 'Island Farm Road', 'KT8 2NJ');
+INSERT INTO customer (cust_fname, cust_lname, email, no_of_travellers, cust_city, street_name, cust_postcode) values ('Christabella', 'Castillo', 'ccastillo0@smugmug.com', 2, 'Molesey', 'Island Farm Road', 'KT8 2NJ');
 INSERT INTO customer (cust_fname, cust_lname, email, no_of_travellers, cust_city, street_name, cust_postcode) values ('Jacqui', 'Lyttle', 'jlyttle1@yahoo.co.jp', 0, 'Aylesbury', 'Castle Street', 'HP20 1TA');
 INSERT INTO customer (cust_fname, cust_lname, email, no_of_travellers, cust_city, street_name, cust_postcode) values ('Dirk', 'Bebbell', 'dbebbell2@elegantthemes.com', 1, 'Neath', 'Brookfield ', 'SA10 7EG');
 INSERT INTO customer (cust_fname, cust_lname, email, no_of_travellers, cust_city, street_name, cust_postcode) values ('Camel', 'Loeber', 'cloeber3@eventbrite.com', 1, 'London', 'Chichester Road', 'NW6 5QP');
@@ -8,14 +8,14 @@ INSERT INTO customer (cust_fname, cust_lname, email, no_of_travellers, cust_city
 INSERT INTO customer (cust_fname, cust_lname, email, no_of_travellers, cust_city, street_name, cust_postcode) values ('Randi', 'Soulsby', 'rsoulsby5@chronoengine.com', 2, 'Horsforth', 'Wood Lane', 'LS18 4HH');
 INSERT INTO customer (cust_fname, cust_lname, email, no_of_travellers, cust_city, street_name, cust_postcode) values ('Cammy', 'Valente', 'cvalente6@amazonaws.com', 2, 'Manchester', 'Orville Drive', 'M19 2JW');
 INSERT INTO customer (cust_fname, cust_lname, email, no_of_travellers, cust_city, street_name, cust_postcode) values ('Florencia', 'Penlington', 'fpenlington7@hc360.com', 0, 'Leeds', 'Victoria Terrace', 'LS3 1BX');
-INSERT INTO customer (cust_fname, cust_lname, email, no_of_travellers, cust_city, street_name, cust_postcode) values ('Norri', 'Veltmann', 'nveltmann8@census.gov', 3, 'Bradford', 'Pollard Lane', 'BD2 4RW');
+INSERT INTO customer (cust_fname, cust_lname, email, no_of_travellers, cust_city, street_name, cust_postcode) values ('Norri', 'Veltmann', 'nveltmann8@census.gov', 2, 'Bradford', 'Pollard Lane', 'BD2 4RW');
 INSERT INTO customer (cust_fname, cust_lname, email, no_of_travellers, cust_city, street_name, cust_postcode) values ('Chrissie', 'Dedenham', 'cdedenham9@exblog.jp', 0, 'Albury', 'Farm Cottages', 'SG11 2JE');
 
 --branch
 INSERT INTO branch (branch_name, branch_city, branch_street, branch_postcode) values ('Dickinson-Tillman','London', 'London Road', 'BN52 9ZP');
 INSERT INTO branch (branch_name, branch_city, branch_street, branch_postcode) values ('Swaniawski, K','Manchester', 'High Stret', 'SA12 6BD');
 INSERT INTO branch (branch_name, branch_city, branch_street, branch_postcode) values ('Littel LLC', 'Lverpool', 'Oxford Street', 'TN38 0LF');
-INSERT INTO branch (branch_name, branch_city, branch_street, branch_postcode) values ('Smitham-Wolf','Cardiff', 'Victotia Street', 'LS18 4SL');
+INSERT INTO branch (branch_name, branch_city, branch_street, branch_postcode) values ('Smitham-Wolf','Cardiff', 'Victoria Street', 'LS18 4SL');
 INSERT INTO branch (branch_name, branch_city, branch_street, branch_postcode) values ('Zulauf-Crooks','Belfast', 'Bridge Street', 'S7 1NT');
 INSERT INTO branch (branch_name, branch_city, branch_street, branch_postcode) values ('Orn LLC','Southampton', 'Clovelly Road', 'CT8 8SR');
 INSERT INTO branch (branch_name, branch_city, branch_street, branch_postcode) values ('Fisher, Ratke and Leuschke','Glasgow', 'Green Lane', 'WV11 3NA');
@@ -45,7 +45,7 @@ INSERT INTO role (role_title, shift_dates, shift_start, shift_end) values ('Rese
 INSERT INTO role (role_title, shift_dates, shift_start, shift_end) values ('Account Executive', '15-03-2022', '13:36', '9:30');
 INSERT INTO role (role_title, shift_dates, shift_start, shift_end) values ('Payment Adjustment Coordinator', '11-04-2022', '15:56', '3:25');
 INSERT INTO role (role_title, shift_dates, shift_start, shift_end) values ('Safety Technician I', '19-11-2022', '23:07', '20:02');
-
+--staff_role
 --accomodation
 INSERT INTO accomodation (accom_name, nights_booked, accom_no, accom_city, accom_country, street_name, accom_postcode, phone_country_code, accom_phone_no, accom_desription) values ('Bartoletti-Dare', 1, '97', 'Balaka', 'Malawi', 'Mccormick', null, 'MW', '804-678-5737', null);
 INSERT INTO accomodation (accom_name, nights_booked, accom_no, accom_city, accom_country, street_name, accom_postcode, phone_country_code, accom_phone_no, accom_desription) values ('Greenfelder, Hahn and Pouros', 2, '20890', 'Ilaya', 'Philippines', 'Bowman', '7106', 'PH', '972-712-6085', null);
@@ -80,6 +80,7 @@ INSERT INTO facility (facility_type, facility_description) values ('cafe.', 'all
 INSERT INTO facility (facility_type, facility_description) values ('pool', 'all facilities open 24/7 except the pool.');
 INSERT INTO facility (facility_type, facility_description) values ('gym', 'all facilities open 24/7 except the pool.');
 INSERT INTO facility (facility_type, facility_description) values ('pool', 'all facilities open 24/7 except the pool.');
+--acc_fac
 --flight
 INSERT INTO flight (airline_name, departure_timestamp, arrival_timestamp, flight_no) values ('Sibisa Airport', '07-09-2022', '02-01-2022', 'EY234');
 INSERT INTO flight (airline_name, departure_timestamp, arrival_timestamp, flight_no) values ('Kenitra Airport', '14-02-2022', '13-09-2022', 'AA8670');
@@ -103,16 +104,16 @@ INSERT INTO booking (holiday_duration, date_of_booking) values (6, '2022-01-16 2
 INSERT INTO booking (holiday_duration, date_of_booking) values (4, '2022-11-03 01:45:26');
 INSERT INTO booking (holiday_duration, date_of_booking) values (7, '2022-07-31 09:29:23');
 --traveller
-INSERT INTO traveller (traveller_fname, traveller_lname, sex, date_of_birth, passport_no, traveller_city, street_name, traveller_postcode) values ('Holli', 'Mancer', 'F', '11-10-1972', '4115381JA', 'Miramichi', 'Downing Street', 'RM5 3XH');
-INSERT INTO traveller (traveller_fname, traveller_lname, sex, date_of_birth, passport_no, traveller_city, street_name, traveller_postcode) values ('Cesare', 'Frazier', 'M', '04-08-1984', '1241125LH', 'Roissy Charles-de-Gaulle', 'Baker Street', 'TA15 6UT');
-INSERT INTO traveller (traveller_fname, traveller_lname, sex, date_of_birth, passport_no, traveller_city, street_name, traveller_postcode) values ('Mina', 'Brierley', 'F', '02-09-1975', '8268048MA', 'Malikisi', 'Bond Street','CM14 4LL');
-INSERT INTO traveller (traveller_fname, traveller_lname, sex, date_of_birth, passport_no, traveller_city, street_name, traveller_postcode) values ('Olivier', 'Evanson', 'M', '18-06-1994', '4115381JA', 'Rudnogorsk', 'Oxford Street', 'NG33 5QP');
-INSERT INTO traveller (traveller_fname, traveller_lname, sex, date_of_birth, passport_no, traveller_city, street_name, traveller_postcode) values ('Paulie', 'Colombier', 'M', '10-03-1966', '1241125LH', 'Czchów', 'Piccadilly', 'FK20 8RN');
-INSERT INTO traveller (traveller_fname, traveller_lname, sex, date_of_birth, passport_no, traveller_city, street_name, traveller_postcode) values ('Neile', 'Wildish', 'F', '24-02-1986', '6993459TH', 'Ejidal', 'Regent Street', 'PA76 6SJ');
-INSERT INTO traveller (traveller_fname, traveller_lname, sex, date_of_birth, passport_no, traveller_city, street_name, traveller_postcode) values ('Fielding', 'Mumbray', 'M', '05-06-1968', '4835734QA', 'Meijiahe', 'Park Lane','DL12 9SA');
-INSERT INTO traveller (traveller_fname, traveller_lname, sex, date_of_birth, passport_no, traveller_city, street_name, traveller_postcode) values ('Nat', 'Chatin', 'M', '08-05-1994', '7141506RA', 'Karangkeng', 'Great Russel Street','CF83 1EA');
-INSERT INTO traveller (traveller_fname, traveller_lname, sex, date_of_birth, passport_no, traveller_city, street_name, traveller_postcode) values ('Con', 'Gogarty', 'M', '25-10-1977', '4115381JA', 'Radekhiv', 'Fleet Street', 'L11 3EF');
-INSERT INTO traveller (traveller_fname, traveller_lname, sex, date_of_birth, passport_no, traveller_city, street_name, traveller_postcode) values ('Milo', 'Langlands', 'M', '08-07-1970', '4835734QA', 'Cimenga', 'The Strand','S3 8HT');
+INSERT INTO traveller (traveller_fname, traveller_lname, sex, date_of_birth, passport_no, traveller_city, street_name, traveller_postcode, booking_id) values ('Holli', 'Mancer', 'F', '11-10-1972', '4115381JA', 'Miramichi', 'Downing Street', 'RM5 3XH', );
+INSERT INTO traveller (traveller_fname, traveller_lname, sex, date_of_birth, passport_no, traveller_city, street_name, traveller_postcode, booking_id) values ('Cesare', 'Frazier', 'M', '04-08-1984', '1241125LH', 'Roissy Charles-de-Gaulle', 'Baker Street', 'TA15 6UT',5 );
+INSERT INTO traveller (traveller_fname, traveller_lname, sex, date_of_birth, passport_no, traveller_city, street_name, traveller_postcode, booking_id) values ('Mina', 'Brierley', 'F', '02-09-1975', '8268048MA', 'Malikisi', 'Bond Street','CM14 4LL', 3);
+INSERT INTO traveller (traveller_fname, traveller_lname, sex, date_of_birth, passport_no, traveller_city, street_name, traveller_postcode, booking_id) values ('Olivier', 'Evanson', 'M', '18-06-1994', '4115381JA', 'Rudnogorsk', 'Oxford Street', 'NG33 5QP',1 );
+INSERT INTO traveller (traveller_fname, traveller_lname, sex, date_of_birth, passport_no, traveller_city, street_name, traveller_postcode, booking_id) values ('Paulie', 'Colombier', 'M', '10-03-1966', '1241125LH', 'Czchów', 'Piccadilly', 'FK20 8RN', 9);
+INSERT INTO traveller (traveller_fname, traveller_lname, sex, date_of_birth, passport_no, traveller_city, street_name, traveller_postcode, booking_id) values ('Neile', 'Wildish', 'F', '24-02-1986', '6993459TH', 'Ejidal', 'Regent Street', 'PA76 6SJ', 6);
+INSERT INTO traveller (traveller_fname, traveller_lname, sex, date_of_birth, passport_no, traveller_city, street_name, traveller_postcode, booking_id) values ('Fielding', 'Mumbray', 'M', '05-06-1968', '4835734QA', 'Meijiahe', 'Park Lane','DL12 9SA', 10);
+INSERT INTO traveller (traveller_fname, traveller_lname, sex, date_of_birth, passport_no, traveller_city, street_name, traveller_postcode, booking_id) values ('Nat', 'Chatin', 'M', '08-05-1994', '7141506RA', 'Karangkeng', 'Great Russel Street','CF83 1EA', 2);
+INSERT INTO traveller (traveller_fname, traveller_lname, sex, date_of_birth, passport_no, traveller_city, street_name, traveller_postcode, booking_id) values ('Con', 'Gogarty', 'M', '25-10-1977', '4115381JA', 'Radekhiv', 'Fleet Street', 'L11 3EF', 8);
+INSERT INTO traveller (traveller_fname, traveller_lname, sex, date_of_birth, passport_no, traveller_city, street_name, traveller_postcode, booking_id) values ('Milo', 'Langlands', 'M', '08-07-1970', '4835734QA', 'Cimenga', 'The Strand','S3 8HT', 4);
 --payment
 --package
 INSERT INTO package (package_name, package_price, package_description) values ('silver package', 1615, '2 nights in a 5 star hotel in italy(flights included)');
@@ -125,6 +126,7 @@ INSERT INTO package (package_name, package_price, package_description) values ('
 INSERT INTO package (package_name, package_price, package_description) values ('silver package', 2360, '3 nights in egypt(5 star hotel + flights inluded)');
 INSERT INTO package (package_name, package_price, package_description) values ('gold package', 1245, '2 nights in a 5 star hotel in italy(flights included)');
 INSERT INTO package (package_name, package_price, package_description) values ('gold package', 1534, '3 nights in egypt(5 star hotel + flights inluded)');
+--book_package
 --car_rent
 INSERT INTO car_rent (car_brand, car_model, car_regist, no_of_seats, no_of_bags, transmission_type, fuel_type, rent_price, car_country, car_city, street_name, car_postcode) values ('Chevrolet', 'Tahoe', '', 6, 2, 'manual', 'petrol', 115, 'Brazil', 'Piritiba', 'High Street', '44830-000');
 INSERT INTO car_rent (car_brand, car_model, car_regist, no_of_seats, no_of_bags, transmission_type, fuel_type, rent_price, car_country, car_city, street_name, car_postcode) values ('Volvo', 'V70', 'GH76SKL', 2, 4, 'manual', 'petrol', 84, 'Peru', 'Huarancante', 'Main Street', '37847');
@@ -136,6 +138,8 @@ INSERT INTO car_rent (car_brand, car_model, car_regist, no_of_seats, no_of_bags,
 INSERT INTO car_rent (car_brand, car_model, car_regist, no_of_seats, no_of_bags, transmission_type, fuel_type, rent_price, car_country, car_city, street_name, car_postcode) values ('Volkswagen', 'Jetta III', '', 5, 3, 'manual', 'petrol', 101, 'Sweden', 'Solna', '4th Street', '170 66');
 INSERT INTO car_rent (car_brand, car_model, car_regist, no_of_seats, no_of_bags, transmission_type, fuel_type, rent_price, car_country, car_city, street_name, car_postcode) values ('Chevrolet', 'Camaro', 'JHHFYUV8', 2, 4, 'semi-auto', 'hybrid', 84, 'Indonesia', 'Roger Drive', 'Main','38483GH');
 INSERT INTO car_rent (car_brand, car_model, car_regist, no_of_seats, no_of_bags, transmission_type, fuel_type, rent_price, car_country, car_city, street_name, car_postcode) values ('Mitsubishi', 'RVR', 'HGJH878', 2, 3, 'semi-auto', 'hybrid', 72, 'Canada', 'Nanton', 'Susan Lane', 'L5M');
+--car_book
+--flight_book
 --airport
 INSERT INTO airport (airport_name, iata_code) values ('London Hethrow Airport', 'LHR');
 INSERT INTO airport (airport_name, iata_code) values ('London Gatwick Airport', 'LGW');
@@ -147,6 +151,7 @@ INSERT INTO airport (airport_name, iata_code) values ('Manchester Airport', 'MAN
 INSERT INTO airport (airport_name, iata_code) values ('London Hethrow Airport', 'LHR');
 INSERT INTO airport (airport_name, iata_code) values ('London Gatwick Airport', 'LGW');
 INSERT INTO airport (airport_name, iata_code) values ('Manchester Airport', 'MAN');
+--flight_airport
 --cabin_class
 INSERT INTO cabin_class (class_name) values ('first class');
 INSERT INTO cabin_class (class_name) values ('first class');
@@ -158,3 +163,4 @@ INSERT INTO cabin_class (class_name) values ('economy');
 INSERT INTO cabin_class (class_name) values ('business class');
 INSERT INTO cabin_class (class_name) values ('first class');
 INSERT INTO cabin_class (class_name) values ('first class');
+--flight_class
