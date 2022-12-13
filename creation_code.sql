@@ -62,7 +62,6 @@ CREATE TABLE accomodation (
     accom_country VARCHAR(50) NOT NULL,
     street_name VARCHAR(50) NOT NULL,
     accom_postcode CHAR(8) NOT NULL,
-    phone_country_code VARCHAR(3) NOT NULL,
     accom_phone_no VARCHAR(15) NOT NULL,
     accom_description TEXT
 );
@@ -147,6 +146,7 @@ CREATE TABLE book_package (
 
 CREATE TABLE car_rent (
     car_id SERIAL PRIMARY KEY NOT NULL,
+    car_phone_no VARCHAR(15) NOT NULL,
     car_brand VARCHAR(40) NOT NULL,
     car_model VARCHAR(100) NOT NULL,
     car_regist CHAR(7) NOT NULL,
