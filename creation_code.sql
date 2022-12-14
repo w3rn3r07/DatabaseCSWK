@@ -93,8 +93,8 @@ CREATE TABLE acc_fac (
 CREATE TABLE flight (
     flight_id SERIAL PRIMARY KEY NOT NULL,
     airline_name VARCHAR(30) NOT NULL,
-    departure_timestamp TIMESTAMP NOT NULL,
-    arrival_timestamp TIMESTAMP NOT NULL,
+    departure_date DATE NOT NULL,
+    return_date DATE NOT NULL,
     flight_no VARCHAR(30) NOT NULL
 );
 
