@@ -238,7 +238,7 @@ INSERT INTO payment (payment_amount, payment_type, booking_id) values (2070, 'VI
 INSERT INTO payment (payment_amount, payment_type, booking_id) values (7804, 'MASTERCARD', 2);
 INSERT INTO payment (payment_amount, payment_type, booking_id) values (6580, 'APPLEP-AY', 5);
 INSERT INTO payment (payment_amount, payment_type, booking_id) values (652, 'GOOGLE-PAY', 8);
-INSERT INTO payment (payment_amount, payment_type, booking_id) values (8830, 'DIRECT DEBIT - VISA', 3);
+INSERT INTO payment (payment_amount, payment_type, booking_id) values (8830, 'VISA', 3);
 INSERT INTO payment (payment_amount, payment_type, booking_id) values (1500, 'MASTERCARD', 4);
 INSERT INTO payment (payment_amount, payment_type, booking_id) values (6699, 'VISA', 10);
 INSERT INTO payment (payment_amount, payment_type, booking_id) values (1482, 'VISA', 9);
