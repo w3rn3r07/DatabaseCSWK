@@ -142,16 +142,16 @@ CREATE TABLE Instalments (
 
 CREATE TABLE instalment_pay (
 	payment_id INT NOT NULL,
-	instalment_id INT NOT NULL,
+	installment_id INT NOT NULL,
 	payment_date DATE NOT NULL,
 	payment_due_date DATE NOT NULL,
-	payment_number_installment SMALLINT NOT NULL,
-	max_number_of_installments SMALLINT NOT NULL,
+	installment_number SMALLINT NOT NULL,
+	max_installments SMALLINT NOT NULL,
 	requirement_payment DECIMAL NOT NULL,
 	customer_paid_amount DECIMAL NOT NULL,
 	payment_status VARCHAR(15),
     FOREIGN KEY (payment_id) REFERENCES payment(payment_id),
-    FOREIGN KEY (instalment_id) REFERENCES instalments(instalment_id)
+    FOREIGN KEY (installment_id) REFERENCES instalments(installment_id)
 );
 
 CREATE TABLE package (
