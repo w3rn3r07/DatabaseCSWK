@@ -179,7 +179,8 @@ CREATE TABLE flight_book (
 CREATE TABLE airport (
     airport_id SERIAL PRIMARY KEY NOT NULL,
     airport_name VARCHAR(50) NOT NULL,
-    iata_code CHAR(3)
+    iata_code CHAR(3),
+    airport_country VARCHAR(50) NOT NULL
 );
 
 CREATE TABLE flight_airport (
