@@ -151,7 +151,7 @@ CREATE TABLE installment_pay (
 	customer_paid_amount DECIMAL NOT NULL,
 	payment_status VARCHAR(15),
     FOREIGN KEY (payment_id) REFERENCES payment(payment_id),
-    FOREIGN KEY (installment_id) REFERENCES instalments(installment_id)
+    FOREIGN KEY (installment_id) REFERENCES installment(installment_id)
 );
 
 CREATE TABLE package (
