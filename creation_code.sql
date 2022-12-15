@@ -129,6 +129,29 @@ CREATE TABLE traveller (
 
 CREATE TABLE payment (
     payment_id SERIAL PRIMARY KEY NOT NULL,
+    payment_amount DECIMAL NOT NULL,
+    payment_type VARCHAR(15),
+    booking_id INT NOT NULL, 
+    FOREIGN KEY (booking_id) REFERENCES booking(booking_id)
+);
+
+CREATE TABLE Instalments (
+    instalment_id SERIAL PRIMARY KEY NOT NULL,
+    instalment_type VARCHAR(15)
+);
+
+CREATE TABLE instalment_pay (
+	payment_id INT NOT NULL,
+	instalment_id INT NOT NULL,
+	payment_date DATE NOT NULL,
+	payment_due_date DATE NOT NULL,
+	payment_number_installment SMALLINT NOT NULL,
+	max_number_of_installments SMALLINT NOT NULL,
+	requirement_payment DECIMAL NOT NULL,
+	customer_paid_amount DECIMAL NOT NULL,
+	payment_status VARCHAR(15),
+    FOREIGN KEY (payment_id) REFERENCES payment(payment_id),
+    FOREIGN KEY (instalment_id) REFERENCES instalments(instalment_id)
 );
 
 CREATE TABLE package (
