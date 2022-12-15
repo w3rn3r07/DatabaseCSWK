@@ -31,16 +31,16 @@ INSERT INTO staff (staff_fname, staff_lname, phone_no, email, staff_city, street
 INSERT INTO staff (staff_fname, staff_lname, phone_no, email, staff_city, street_name, staff_postcode,branch_id) VALUES ('Vasili', 'Vasovic', '0325 511 6584', 'vvasovic8@cpanel.net', 'Coventry', 'Park Road', 'SK41 6NS',3);
 INSERT INTO staff (staff_fname, staff_lname, phone_no, email, staff_city, street_name, staff_postcode,branch_id) VALUES ('Terri', 'Hurl', '0581 685 7492', 'thurl9@123-reg.co.uk', 'Nottingham', 'Grove Road','CT8 8DG',9);
 
-INSERT INTO role (role_title, shift_dates, shift_start, shift_end) VALUES ('manager', '2022-07-14', '1:12', '6:15');
-INSERT INTO role (role_title, shift_dates, shift_start, shift_end) VALUES ('general worker', '2022-05-15', '8:17', '16:20');
-INSERT INTO role (role_title, shift_dates, shift_start, shift_end) VALUES ('assistant manager', '2022-10-09', '1:06', '15:41');
-INSERT INTO role (role_title, shift_dates, shift_start, shift_end) VALUES ('marketer', '2022-07-01', '11:24', '10:24');
-INSERT INTO role (role_title, shift_dates, shift_start, shift_end) VALUES ('Sales', '2022-08-11', '15:37', '4:58');
-INSERT INTO role (role_title, shift_dates, shift_start, shift_end) VALUES ('accountant', '2022-07-29', '5:13', '10:34');
-INSERT INTO role (role_title, shift_dates, shift_start, shift_end) VALUES ('business adminstrator', '2022-04-13', '12:15', '1:27');
-INSERT INTO role (role_title, shift_dates, shift_start, shift_end) VALUES ('HR', '2022-03-15', '13:36', '9:30');
-INSERT INTO role (role_title, shift_dates, shift_start, shift_end) VALUES ('Payment Adjustment Coordinator', '2022-04-11', '15:56', '3:25');
-INSERT INTO role (role_title, shift_dates, shift_start, shift_end) VALUES ('Safety Technician', '2022-11-19', '23:07', '20:02');
+INSERT INTO role (role_title, shift_date, shift_start, shift_end) VALUES ('manager', '2022-07-14', '1:12', '6:15');
+INSERT INTO role (role_title, shift_date, shift_start, shift_end) VALUES ('general worker', '2022-05-15', '8:17', '16:20');
+INSERT INTO role (role_title, shift_date, shift_start, shift_end) VALUES ('assistant manager', '2022-10-09', '1:06', '15:41');
+INSERT INTO role (role_title, shift_date, shift_start, shift_end) VALUES ('marketer', '2022-07-01', '11:24', '10:24');
+INSERT INTO role (role_title, shift_date, shift_start, shift_end) VALUES ('Sales', '2022-08-11', '15:37', '4:58');
+INSERT INTO role (role_title, shift_date, shift_start, shift_end) VALUES ('accountant', '2022-07-29', '5:13', '10:34');
+INSERT INTO role (role_title, shift_date, shift_start, shift_end) VALUES ('business adminstrator', '2022-04-13', '12:15', '1:27');
+INSERT INTO role (role_title, shift_date, shift_start, shift_end) VALUES ('HR', '2022-03-15', '13:36', '9:30');
+INSERT INTO role (role_title, shift_date, shift_start, shift_end) VALUES ('Payment Adjustment Coordinator', '2022-04-11', '15:56', '3:25');
+INSERT INTO role (role_title, shift_date, shift_start, shift_end) VALUES ('Safety Technician', '2022-11-19', '23:07', '20:02');
 
 INSERT INTO staff_role (staff_id, role_id) VALUES (1, 1);
 INSERT INTO staff_role (staff_id, role_id) VALUES (2, 7);
