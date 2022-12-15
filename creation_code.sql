@@ -135,7 +135,7 @@ CREATE TABLE payment (
     FOREIGN KEY (booking_id) REFERENCES booking(booking_id)
 );
 
-CREATE TABLE Installments (
+CREATE TABLE Installment (
     installment_id SERIAL PRIMARY KEY NOT NULL,
     installment_type VARCHAR(15)
 );
