@@ -140,7 +140,7 @@ CREATE TABLE Instalments (
     instalment_type VARCHAR(15)
 );
 
-CREATE TABLE instalment_pay (
+CREATE TABLE installment_pay (
 	payment_id INT NOT NULL,
 	installment_id INT NOT NULL,
 	payment_date DATE NOT NULL,
