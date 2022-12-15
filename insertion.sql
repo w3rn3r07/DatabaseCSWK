@@ -233,3 +233,36 @@ INSERT INTO flight_class (flight_id, class_id) VALUES (3, 4);
 INSERT INTO flight_class (flight_id, class_id) VALUES (3, 2);
 INSERT INTO flight_class (flight_id, class_id) VALUES (3, 1);
 INSERT INTO flight_class (flight_id, class_id) VALUES (4, 4);
+
+INSERT INTO payment (payment_amount, payment_type, booking_id) values (2070, 'VISA', 1);
+INSERT INTO payment (payment_amount, payment_type, booking_id) values (7804, 'MASTERCARD', 2);
+INSERT INTO payment (payment_amount, payment_type, booking_id) values (6580, 'APPLEP-AY', 5);
+INSERT INTO payment (payment_amount, payment_type, booking_id) values (652, 'GOOGLE-PAY', 8);
+INSERT INTO payment (payment_amount, payment_type, booking_id) values (8830, 'DIRECT DEBIT - VISA', 3);
+INSERT INTO payment (payment_amount, payment_type, booking_id) values (1500, 'MASTERCARD', 4);
+INSERT INTO payment (payment_amount, payment_type, booking_id) values (6699, 'VISA', 10);
+INSERT INTO payment (payment_amount, payment_type, booking_id) values (1482, 'VISA', 9);
+INSERT INTO payment (payment_amount, payment_type, booking_id) values (4585, 'MASTERCARD', 7);
+INSERT INTO payment (payment_amount, payment_type, booking_id) values (9529, 'APPLE-PAY', 6);
+
+INSERT INTO instalments (instalment_type) values ('3 months');
+INSERT INTO instalments (instalment_type) values ('6 month');
+INSERT INTO instalments (instalment_type) values ('9 month');
+INSERT INTO instalments (instalment_type) values ('12 month');
+INSERT INTO instalments (instalment_type) values ('4 month');
+INSERT INTO instalments (instalment_type) values ('3 months');
+INSERT INTO instalments (instalment_type) values ('6 month');
+INSERT INTO instalments (instalment_type) values ('9 month');
+INSERT INTO instalments (instalment_type) values ('12 month');
+INSERT INTO instalments (instalment_type) values ('Pay Full');
+
+insert into instalment_pay (payment_id, installment_id, payment_date, payment_due_date, payment_number_installment, max_number_of_installments, requirement_payment, customer_paid_amount, payment_status) values (9, 10, '2022-10-20', '2022-11-08', 2, 3, 169, 189, 'PAID FULL');
+insert into instalment_pay (payment_id, installment_id, payment_date, payment_due_date, payment_number_installment, max_number_of_installments, requirement_payment, customer_paid_amount, payment_status) values (7, 5, '2022-10-12', '2023-01-08', 4, 6, 150, 150, 'PAID INSTALMENT');
+insert into instalment_pay (payment_id, installment_id, payment_date, payment_due_date, payment_number_installment, max_number_of_installments, requirement_payment, customer_paid_amount, payment_status) values (10, 10, '2022-09-28', '2023-02-14', 6, 9, 186, 153, 'PAID FULL');
+insert into instalment_pay (payment_id, installment_id, payment_date, payment_due_date, payment_number_installment, max_number_of_installments, requirement_payment, customer_paid_amount, payment_status) values (2, 1, '2022-11-04', '2022-08-09', 8, 12, 167, 155, 'PAID INSTALMENT');
+insert into instalment_pay (payment_id, installment_id, payment_date, payment_due_date, payment_number_installment, max_number_of_installments, requirement_payment, customer_paid_amount, payment_status) values (9, 1, '2022-10-16', '2023-02-11', 2, 4, 160, 159, 'PAID FULL');
+insert into instalment_pay (payment_id, installment_id, payment_date, payment_due_date, payment_number_installment, max_number_of_installments, requirement_payment, customer_paid_amount, payment_status) values (8, 4, '2022-09-27', '2022-10-16', 3, 3, 171, 192, 'PAID INSTALMENT');
+insert into instalment_pay (payment_id, installment_id, payment_date, payment_due_date, payment_number_installment, max_number_of_installments, requirement_payment, customer_paid_amount, payment_status) values (4, 5, '2022-11-02', '2022-10-14', 4, 6, 197, 186, 'PAID FULL');
+insert into instalment_pay (payment_id, installment_id, payment_date, payment_due_date, payment_number_installment, max_number_of_installments, requirement_payment, customer_paid_amount, payment_status) values (2, 3, '2022-08-30', '2023-02-09', 3, 9, 181, 166, 'PAID INSTALMENT');
+insert into instalment_pay (payment_id, installment_id, payment_date, payment_due_date, payment_number_installment, max_number_of_installments, requirement_payment, customer_paid_amount, payment_status) values (8, 3, '2022-12-03', '2022-08-22', 3, 12, 169, 151, 'PAID FULL');
+insert into instalment_pay (payment_id, installment_id, payment_date, payment_due_date, payment_number_installment, max_number_of_installments, requirement_payment, customer_paid_amount, payment_status) values (1, 5, '2022-06-03', '2023-02-08', 1, 1, 186, 154, 'PAID INSTALMENT');
