@@ -119,15 +119,15 @@ INSERT INTO flight (airline_name, departure_date, return_date, flight_no) VALUES
 INSERT INTO flight (airline_name, departure_date, return_date, flight_no) VALUES ('Egyptair', '2022-06-28', '2022-08-05', 'GF4857');
 INSERT INTO flight (airline_name, departure_date, return_date, flight_no) VALUES ('easyJet', '2022-08-11', '2022-08-15', 'GF4857');
 
-INSERT INTO booking (holiday_duration, date_of_booking,booking_price, staff_id, cust_id, flight_id, accom_id) VALUES (46, '2021-12-06 11:36:37',2650, 1, 1, 1, 1);''
-INSERT INTO booking (holiday_duration, date_of_booking,booking_price, staff_id, cust_id, flight_id, accom_id) VALUES (53, '2022-01-25 15:25:08',9564, 3, 2, 5, 10);''
-INSERT INTO booking (holiday_duration, date_of_booking,booking_price, staff_id, cust_id, flight_id, accom_id) VALUES (54, '2022-01-29 01:59:50',7635, 1, 3, 4, 9);''
-INSERT INTO booking (holiday_duration, date_of_booking,booking_price, staff_id, cust_id, flight_id, accom_id) VALUES (36, '2022-02-04 20:26:09',7634, 1, 4, 3, 6);''
-INSERT INTO booking (holiday_duration, date_of_booking,booking_price, staff_id, cust_id, flight_id, accom_id) VALUES (47, '2022-03-21 13:02:09',8745, 2, 5, 8, 8);''
-INSERT INTO booking (holiday_duration, date_of_booking,booking_price, staff_id, cust_id, flight_id, accom_id) VALUES (39, '2022-03-24 01:26:14',5433, 3, 6, 7, 5);''
-INSERT INTO booking (holiday_duration, date_of_booking,booking_price, staff_id, cust_id, flight_id, accom_id) VALUES (3, '2022-04-19 06:52:05',1264, 2, 7, 6, 3);''
-INSERT INTO booking (holiday_duration, date_of_booking,booking_price, staff_id, cust_id, flight_id, accom_id) VALUES (36, '2022-05-05 15:37:20',7655, 3, 8, 1, 2);''
-INSERT INTO booking (holiday_duration, date_of_booking,booking_price, staff_id, cust_id, flight_id, accom_id) VALUES (7, '2022-06-14 14:54:49',1827, 2, 9, 9, 4);''
+INSERT INTO booking (holiday_duration, date_of_booking,booking_price, staff_id, cust_id, flight_id, accom_id) VALUES (46, '2021-12-06 11:36:37',2650, 1, 1, 1, 1);
+INSERT INTO booking (holiday_duration, date_of_booking,booking_price, staff_id, cust_id, flight_id, accom_id) VALUES (53, '2022-01-25 15:25:08',9564, 3, 2, 5, 10);
+INSERT INTO booking (holiday_duration, date_of_booking,booking_price, staff_id, cust_id, flight_id, accom_id) VALUES (54, '2022-01-29 01:59:50',7635, 1, 3, 4, 9);
+INSERT INTO booking (holiday_duration, date_of_booking,booking_price, staff_id, cust_id, flight_id, accom_id) VALUES (36, '2022-02-04 20:26:09',7634, 1, 4, 3, 6);
+INSERT INTO booking (holiday_duration, date_of_booking,booking_price, staff_id, cust_id, flight_id, accom_id) VALUES (47, '2022-03-21 13:02:09',8745, 2, 5, 8, 8);
+INSERT INTO booking (holiday_duration, date_of_booking,booking_price, staff_id, cust_id, flight_id, accom_id) VALUES (39, '2022-03-24 01:26:14',5433, 3, 6, 7, 5);
+INSERT INTO booking (holiday_duration, date_of_booking,booking_price, staff_id, cust_id, flight_id, accom_id) VALUES (3, '2022-04-19 06:52:05',1264, 2, 7, 6, 3);
+INSERT INTO booking (holiday_duration, date_of_booking,booking_price, staff_id, cust_id, flight_id, accom_id) VALUES (36, '2022-05-05 15:37:20',7655, 3, 8, 1, 2);
+INSERT INTO booking (holiday_duration, date_of_booking,booking_price, staff_id, cust_id, flight_id, accom_id) VALUES (7, '2022-06-14 14:54:49',1827, 2, 9, 9, 4);
 INSERT INTO booking (holiday_duration, date_of_booking,booking_price, staff_id, cust_id, flight_id, accom_id) VALUES (4, '2022-07-09 11:19:17', 335, 4, 10, 9, 7);
 
 INSERT INTO traveller (traveller_fname, traveller_lname, sex, date_of_birth, passport_no, traveller_city, street_name, traveller_postcode, booking_id) VALUES ('Holli', 'Mancer', 'F', '1972-10-11', '4115381JA', 'Miramichi', 'Downing Street', 'RM5 3XH',1);
