@@ -245,16 +245,16 @@ INSERT INTO payment (payment_amount, payment_type, booking_id) values (1482, 'VI
 INSERT INTO payment (payment_amount, payment_type, booking_id) values (4585, 'MASTERCARD', 7);
 INSERT INTO payment (payment_amount, payment_type, booking_id) values (9529, 'APPLE-PAY', 6);
 
-INSERT INTO installments (installment_type) values ('3 months');
-INSERT INTO installments (installment_type) values ('6 month');
-INSERT INTO installments (installment_type) values ('9 month');
-INSERT INTO installments (installment_type) values ('12 month');
-INSERT INTO installments (installment_type) values ('4 month');
-INSERT INTO installments (installment_type) values ('3 months');
-INSERT INTO installments (installment_type) values ('6 month');
-INSERT INTO installments (installment_type) values ('9 month');
-INSERT INTO installments (installment_type) values ('12 month');
-INSERT INTO installments (installment_type) values ('Pay Full');
+INSERT INTO installment (installment_type) values ('3 months');
+INSERT INTO installment (installment_type) values ('6 month');
+INSERT INTO installment (installment_type) values ('9 month');
+INSERT INTO installment (installment_type) values ('12 month');
+INSERT INTO installment (installment_type) values ('4 month');
+INSERT INTO installment (installment_type) values ('3 months');
+INSERT INTO installment (installment_type) values ('6 month');
+INSERT INTO installment (installment_type) values ('9 month');
+INSERT INTO installment (installment_type) values ('12 month');
+INSERT INTO installment (installment_type) values ('Pay Full');
 
 INSERT INTO instalment_pay (payment_id, installment_id, payment_date, payment_due_date,  installment_number, max_installments, required_payment, customer_paid_amount, payment_status) values (9, 10, '2022-10-20', '2022-11-08', 2, 3, 169, 189, 'PAID FULL');
 INSERT INTO instalment_pay (payment_id, installment_id, payment_date, payment_due_date,  installment_number, max_installments, required_payment, customer_paid_amount, payment_status) values (7, 5, '2022-10-12', '2023-01-08', 4, 6, 150, 150, 'PAID INSTALMENT');
