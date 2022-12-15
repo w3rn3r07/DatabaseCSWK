@@ -41,7 +41,7 @@ CREATE TABLE staff(
 CREATE TABLE role (
     role_id SERIAL PRIMARY KEY NOT NULL,
     role_title VARCHAR(30) NOT NULL,
-    shift_dates DATE NOT NULL,
+    shift_date DATE NOT NULL,
     shift_start TIME NOT NULL,
     shift_end TIME NOT NULL
 );
