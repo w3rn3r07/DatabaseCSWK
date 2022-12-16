@@ -53,7 +53,7 @@ CREATE TABLE staff_role (
     FOREIGN KEY (role_id) REFERENCES role(role_id)
 );
 
-CREATE TABLE accomodation (
+CREATE TABLE accommodation (
     accom_id SERIAL PRIMARY KEY NOT NULL,
     accom_name VARCHAR(75) NOT NULL,
     nights_booked SMALLINT NOT NULL,
@@ -74,7 +74,7 @@ CREATE TABLE room (
     room_facilities TEXT NOT NULL,
     extra_facilities TEXT,
     accom_id INT NOT NULL,
-    FOREIGN KEY (accom_id) REFERENCES accomodation(accom_id)
+    FOREIGN KEY (accom_id) REFERENCES accommodation(accom_id)
 );
 
 CREATE TABLE facility (
@@ -86,7 +86,7 @@ CREATE TABLE facility (
 CREATE TABLE acc_fac (
     accom_id INT NOT NULL, 
     facility_id INT NOT NULL,
-    FOREIGN KEY (accom_id) REFERENCES accomodation(accom_id),
+    FOREIGN KEY (accom_id) REFERENCES accommodation(accom_id),
     FOREIGN KEY (facility_id) REFERENCES facility(facility_id)
 );
 
@@ -110,7 +110,7 @@ CREATE TABLE booking (
     FOREIGN KEY (staff_id) REFERENCES staff(staff_id),
     FOREIGN KEY (cust_id) REFERENCES customer(cust_id),
     FOREIGN KEY (flight_id) REFERENCES flight(flight_id),
-    FOREIGN KEY (accom_id) REFERENCES accomodation(accom_id)
+    FOREIGN KEY (accom_id) REFERENCES accommodation(accom_id)
 );
 
 CREATE TABLE traveller (
