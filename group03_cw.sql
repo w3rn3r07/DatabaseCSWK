@@ -1,5 +1,5 @@
 --Creation--
-    CREATE DATABASE holiday;
+    CREATE DATABASE SunnySideHoliday;
 
     CREATE TABLE customer (
         cust_id SERIAL PRIMARY KEY NOT NULL,
