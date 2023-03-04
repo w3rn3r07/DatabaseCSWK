@@ -116,3 +116,12 @@ Cabin_class:
 
    Cabin class is the service provided on the aeroplane (e.g. business class, economy)
    Mnay cabins be on many flights
+   
+                        Security
+
+Security considerations
+In the case study it has mentioned that only authorised personnel can only access payment history for
+accountants and managers and the rest of the employees might have access to the database depending on their
+roles and needs. What could be fatal relating to this case is that unauthorised employees accessing the
+payments that have card details and may exploit it. Which is a financial database breach.
+The have created a role and privileges of the employee are shown below:
